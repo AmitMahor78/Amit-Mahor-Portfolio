@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color:rgb(45, 67, 116); width: 1300px;">
+    <section >
+    <p class="fis">
+        Hello friends  You 
+        are viewing my portfolio profile.
+         Scroll down to see my portfolio profile.
+    </p>
+    <img class="A" src="Portfolio.jpg" alt="" style="height: 250px; ">
+</section>
+<section >
+    <br><br><br>
+
+    <img class="B" src="Portfolio.jpg" alt="" style="height: 250px; border-radius: 50%;position: relative; top: -20px; left: 80px;">
+    <summary>
+
+    <h1>About Me</h1>
+
+    <div class="C">
+      <h2>  Computer Science Student </h2>
+      <br>
+      <p class="sec">
+        My name is Amit Mahor , Father's name is 
+        Pooran Singh Mahor and My Mother's name is Basanti Mahor.
+        I am B Tech Second Year Student.
+        I am pursuing my B.Tech from Shri Ram
+        College Of Engineering & Management.
+        and my university is RGPV.
+        <br>
+        I live in Ambah in Morena district.
+    
+</summary>
+      </p>
+    </div>
+    <h1 style="position: relative; left: 200px;">My certificates</h1>
+    <img src="JS (1).png" alt="" class="D">
+    <img src="JS (2).png" alt="" class="D">
+    <img src="JS (3).png" alt="" class="D">
+    <img src="sql.jpg" alt="" class="D">
+    <img src="Angular.png" alt="" class="D" >
+</section>
+ <h3>Contect me :-</h3>
+ <p class="thir">
+    Email :- amitmahor613@gmail.com
+    <br>
+    Phone :- 7879194316(only whatsapp)
+
+ </p>
+
+ <h4> Projects :-
+  <br><br>
+  All Are Published On Git Hub
+<p class="forth"> <a style="color: rgb(42, 165, 89); text-decoration: none;" href="https://amitmahor78.github.io/QR/"> 1. QR Maker project</a> 
+  <br>
+<a  style="color: rgb(42, 165, 89); text-decoration: none;" href="https://amitmahor78.github.io/calculator/">2. Normal Calculator </a>
+  <br>
+  <a style="color: rgb(42, 165, 89); text-decoration: none;"href="https://amitmahor78.github.io/-Time-And-Date/">3. Time And Date</a>
+  <br>
+  <a style="color: rgb(42, 165, 89); text-decoration: none;" href="https://amitmahor78.github.io/Image-Slider/">4. Image-Slider</a>
+  <br>
+<a style="color: rgb(42, 165, 89); text-decoration: none;" href="https://amitmahor78.github.io/Trafficlight/">5. Traffic Signal Light</a>
+<br>
+<a style="color: rgb(42, 165, 89); text-decoration: none;" href="https://amitmahor78.github.io/color-click/">6. Simple Java Script Container Color Change Animation</a>
+<br>
+
+
+</p>
+ </h4>
+
+
+</body>
+
+
+
+<script>
+     document.addEventListener("copy",(event)=>{
+        const selectedData = window.getSelection().toString();
+        event.clipboardData.setData(
+            "text/plain",
+          f()
+        );
+        event.preventDefault();
+    });
+    function f(){
+        let gamenum = "A$T$M116";
+let usernum = prompt("Enter the password ");
+
+while (usernum != gamenum) {
+       usernum = prompt("your password is wrong  ");
+} 
+const selectedData = window.getSelection().toString();
+        event.clipboardData.setData(
+            "text/plain",
+
+        );
+    }
+    document.addEventListener('keydown', function() {
+    if (event.keyCode == 123) {
+      f();
+      return false;
+    } else if (event.ctrlKey && event.shiftKey && event.keyCode == 73) {
+      f();
+      return false;
+    } else if (event.ctrlKey && event.keyCode == 85) {
+      f();
+      return false;
+    }
+  }, false);
+  
+  if (document.addEventListener) {
+    document.addEventListener('contextmenu', function(e) {
+      f();
+      e.preventDefault();
+    }, false);
+  } else {
+    document.attachEvent('oncontextmenu', function() {
+      f();
+      window.event.returnValue = false;
+    });
+  }
+</script>
+</html>
